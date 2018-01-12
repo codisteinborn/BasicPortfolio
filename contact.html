@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <nav>
+    <!-- <nav>
         <div class="containter-fluid">
             <h1>Codi Steinborn</h1>
             <a class="link" href="index.html">About</a>
@@ -21,12 +21,44 @@
             <a class="link" href="contact.html">Contact</a>
             </li>
         </div>
+    </nav> -->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <h1>Codi Steinborn</h1>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="link" href="index.html" >About</a>
+                </li>
+                <li>
+                    <a class="link" href="contact.html" >Contact</a>
+                </li>
+                <li>
+                    <a class="link" href="portfolio.html" >Portfolio</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
     </nav>
+
     <div class="container">
         <div class="row">
             <div class="col-md-8 box1">
                 <article>
-                    <h2>Contact Me</h2>
+                    <h2>Contact Me </h2>
                     <form id="contactform" action="action_page.php">
                         <label for="fname">First Name</label>
                         <input type="text" id="fname" name="firstname" placeholder="Your first name..">
@@ -38,7 +70,7 @@
                         <input type="text" id="message" name="msg" placeholder="Your message here..">
                         <br>
                         <button>
-                            Submit
+                            <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
                         </button>
                     </form>
                 </article>
