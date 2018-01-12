@@ -103,8 +103,8 @@ p{
 }
 .portpic{
     float:left;
-    width: 275px;
-    height: 200px;
+    width: 200px;
+    height: 150px;
     margin: 15px;
     position: relative;
     border-style: solid;
@@ -116,11 +116,12 @@ p{
 .social{
     height: 70px;
     width: 70px;
-    margin: 5px;
+    margin: 10px;
     border-style: solid;
     border-color: white;
     border-width: 1px;
     border-radius: 5px;
+    
 }
 .social:hover{
     animation: shake 0.5s;
@@ -160,7 +161,7 @@ footer{
     text-align: left;
 }
 #message{
-    width: 300px;
+    width: 400px;
     height: 200px;
 }
 #fname:focus{
@@ -231,7 +232,7 @@ label{
         left: 150px;
         z-index: 5;
 }
-
+/* 
 .box1{
 border-style: solid;
 border-color: blue;
@@ -242,4 +243,4 @@ border-width: 5px;
     border-style: solid;
     border-color: purple;
     border-width: 5px;
-}
+} */
