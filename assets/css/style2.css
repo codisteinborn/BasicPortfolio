@@ -13,6 +13,13 @@
 }
 /* shake keyframe code from C3 website */
 
+/* @media only screen and (max-width: 768px) { */
+    /* For mobile phones: */
+    /* [class*="col-"] {
+        width: 100%;
+    }
+} */
+
 nav{
     margin-bottom: 18px;
     height: 100px;
@@ -22,6 +29,17 @@ nav{
     border-width: 15px;
     border-color: white;
     border-radius: 25px;
+}
+.navbar-default{
+    background-color: whitesmoke;
+    color: rgb(233, 135, 152);
+}
+.navbar-default .navbar-brand {
+    color: rgb(233, 135, 152);
+    font-size: 30px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: rgb(233, 135, 152);
 }
 body{
     background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/regal.png");
@@ -79,9 +97,9 @@ p{
     color: rgb(233, 135, 152);
 }
 .link{
-    float: right;
+    /* float: right; */
     padding: 5px;
-    margin: 15px;
+    /* margin: 15px; */
     margin-top: 35px;
     color: rgb(233, 135, 152);
     text-decoration: none;
@@ -92,7 +110,7 @@ p{
     animation-iteration-count: 1;
     color: black;
 }
-.navbar-default .navbar-nav>li>a {
+.navbar-default .navbar-brand .navbar-nav>li>a{
     color: rgb(233, 135, 152);
 }
 #mepic{
@@ -244,10 +262,11 @@ button{
 .navbar-right{
     font-family: 'Lato', sans-serif;
     color: rgb(233, 135, 152);
+    background-color: whitesmoke;
 }
 
-/* 
-.box1{
+
+/* .box1{
 border-style: solid;
 border-color: blue;
 border-width: 5px;
