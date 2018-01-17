@@ -13,6 +13,13 @@
 }
 /* shake keyframe code from C3 website */
 
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
 nav{
     margin-bottom: 18px;
     height: 100px;
@@ -246,8 +253,8 @@ button{
     color: rgb(233, 135, 152);
 }
 
-/* 
-.box1{
+
+/* .box1{
 border-style: solid;
 border-color: blue;
 border-width: 5px;
