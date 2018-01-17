@@ -115,7 +115,7 @@ p{
     border-color: white;
     border-width: 1px;
     border-radius: 5px;
-    z-index: 2;
+    z-index: 3;
 }
 .social{
     height: 70px;
@@ -137,12 +137,12 @@ footer{
     bottom:0;
     left:0;
     width: 100%;
-    height:25px;
+    height:30px;
     color: gray;
     background-color: rgb(184, 178, 178);
     font-family: 'Lato', sans-serif;
     font-size: 12px;
-    padding: 15px;
+    padding: 20px;
     clear:both;
     margin-top: auto;
 }
@@ -152,12 +152,12 @@ footer{
     bottom:0;
     left:0;
     width: 100%;
-    height:25px;
+    height:30px;
     color: gray;
     background-color: rgb(184, 178, 178);
     font-family: 'Lato', sans-serif;
     font-size: 12px;
-    padding: 15px;
+    padding: 20px;
     clear:both;
     margin-top: auto;
 }
@@ -194,6 +194,7 @@ label{
     /* position: relative; */
     float: left;
     margin-right: 5px;
+    z-index: 2;
  
 }
 
