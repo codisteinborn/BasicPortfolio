@@ -43,6 +43,7 @@ nav{
 }
 body{
     background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/regal.png");
+    padding-bottom: 10px;
 }
 article{
     padding:10px;
