@@ -120,7 +120,7 @@ p{
     /* float: right; */
     padding: 5px;
     /* margin: 15px; */
-    margin-top: 35px;
+    /* margin-top: 35px; */
     color: rgb(233, 135, 152);
     text-decoration: none;
     font-family: 'Lato', sans-serif;
@@ -169,7 +169,7 @@ p{
     animation: shake 0.5s;
     animation-iteration-count: 1;
 }
-footer{
+.footer{
     text-align: center;
     position: fixed;
     bottom:0;
@@ -186,7 +186,7 @@ footer{
 }
 #foot{
     text-align: center;
-    position: relative;
+    /* position: relative; */
     bottom:0;
     left:0;
     width: 100%;
@@ -197,7 +197,7 @@ footer{
     font-size: 12px;
     padding: 20px;
     clear:both;
-    margin-top: auto;
+    margin-top: 5px;
 }
 #contactform{
     text-align: left;
