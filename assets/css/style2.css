@@ -109,6 +109,9 @@ h2{
     border-bottom-color: gray;
     border-bottom-width: 3px;
 }
+h3{
+    text-align: center;
+}
 p{
     color: rgb(233, 135, 152);
 }
