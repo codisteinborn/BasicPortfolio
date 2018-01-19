@@ -13,13 +13,6 @@
 }
 /* shake keyframe code from C3 website */
 
-/* @media only screen and (max-width: 768px) { */
-    /* For mobile phones: */
-    /* [class*="col-"] {
-        width: 100%;
-    }
-} */
-
 nav{
     margin-bottom: 18px;
     height: 100px;
@@ -85,17 +78,7 @@ aside{
     clear: both;
     margin-bottom: 5px;
 }
-/* .contactfrm{
-    text-align: center;
-    margin-left: 40px;
-    margin-right: 25px;
-    float: right;
-    background-color: whitesmoke;
-    border-style: solid;
-    border-width: 10px;
-    border-color: white;
-    border-radius: 25px;
-} */
+
 h1, h2, h3{
     font-family: 'Lato', sans-serif;
     color: rgb(233, 135, 152);
@@ -239,46 +222,13 @@ label{
  
 }
 
-/* #dog{
-    position: absolute;
-    bottom:5px;
-    height: 20px;
-    left: 150px;
-    z-index: 5;
-}
-#cat{
-    position: absolute;
-    bottom:5px;
-    height: 20px;
-    right: 150px;
-    z-index: 5;  
-} */
+
 #doggy, #kitty, #fishy, #turtly, #bunnyy{
     height: 250px;
     float: left;
     position: relative;
 }
-/* #fish{
-    position: absolute;
-    bottom:5px;
-    height: 20px;
-    left: 150px;
-    z-index: 5;
-}
-#turtle{
-    position: absolute;
-    bottom:5px;
-    height: 20px;
-    right: 150px;
-    z-index: 5; 
-}
-#bunny{
-        position: absolute;
-        bottom:5px;
-        height: 20px;
-        left: 150px;
-        z-index: 5;
-} */
+
 button{
     width: 55px;
 }
