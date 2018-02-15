@@ -13,30 +13,23 @@
 }
 /* shake keyframe code from C3 website */
 
-nav{
-    margin-bottom: 18px;
-    height: 100px;
-    background-color: whitesmoke;
+.jumbotron{
+    text-align: center;
     color: rgb(233, 135, 152);
-    border-style: solid;
-    border-width: 15px;
-    border-color: white;
-    border-radius: 25px;
+    background-image: url("http://deskbg.com/s3/wpp/0/282/black-and-white-roses-desktop-background.jpg");
+    background-size: cover;
+    height: 285px;
 }
-.navbar-default{
-    background-color: whitesmoke;
-    color: rgb(233, 135, 152);
+.dropdown-menu{
+    text-align: center;
+    float: none;
+    position: relative;
 }
-.navbar-default .navbar-brand {
-    color: rgb(233, 135, 152);
-    font-size: 30px;
-}
-.navbar-default .navbar-nav>li>a {
-    color: rgb(233, 135, 152);
-}
+
 body{
-    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/regal.png");
+    /* background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/regal.png"); */
     padding-bottom: 10px;
+    background-color: rgb(249, 249, 249)
 }
 article{
     padding:10px;
@@ -83,9 +76,8 @@ h1, h2, h3{
     color: rgb(233, 135, 152);
 }
 h1{
-    float: left;
-    margin-left: 15px;
-    font-size: 40px;
+    font-size: 50px;
+    font-weight: bold;
 }
 h2{
     border-bottom-style: solid;
@@ -96,7 +88,7 @@ h3{
     text-align: center;
 }
 p{
-    color: rgb(233, 135, 152);
+    color: gray;
 }
 .link{
     padding: 5px;
@@ -141,8 +133,13 @@ p{
     border-style: solid;
     border-color: white;
     border-width: 1px;
-    border-radius: 5px;
-    
+    border-radius: 5px;  
+}
+.socialL{
+    float:right;
+}
+.socialR{
+    float:left;
 }
 .social:hover{
     animation: shake 0.5s;
@@ -156,7 +153,7 @@ p{
     width: 100%;
     height:30px;
     color: gray;
-    background-color: rgb(184, 178, 178);
+    background-color: whitesmoke;
     font-family: 'Lato', sans-serif;
     font-size: 12px;
     padding: 20px;
@@ -184,18 +181,11 @@ p{
     width: 400px;
     height: 150px;
 }
-.navbar-brand:hover{
-    color: rgb(233, 135, 152);
+
+#fname:focus, #lname:focus, #message:focus{
+    background: rgb(195, 238, 252);
 }
-#fname:focus{
-    background: lightblue;
-}
-#lname:focus{
-    background: lightblue;
-}
-#message:focus{
-    background: lightblue;
-}
+
 label{
     margin-top: 0px;
     float: left;
@@ -216,20 +206,10 @@ label{
     z-index: 2;
  
 }
-
 #hangman, #crystal, #spotYourShow, #turtly, #bunnyy{
     height: 250px;
     float: left;
     position: relative;
-}
-
-button{
-    width: 55px;
-}
-.navbar-right{
-    font-family: 'Lato', sans-serif;
-    color: rgb(233, 135, 152);
-    background-color: whitesmoke;
 }
 .container{
     margin-bottom:5px;
