@@ -27,7 +27,6 @@
 }
 
 body{
-    /* background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/regal.png"); */
     padding-bottom: 10px;
     background-color: rgb(249, 249, 249)
 }
@@ -42,22 +41,9 @@ article{
     color: rgb(233, 135, 152);
     font-family: 'Lato', sans-serif;
     clear:both;
-    
+    margin-bottom:5px;
 }
-article2{
-    padding:10px;
-    float: left;
-    line-height: 2;
-    background-color: whitesmoke;
-    border-style: solid;
-    border-width: 10px;
-    border-color: white;
-    border-radius: 25px;
-    color: rgb(233, 135, 152);
-    font-family: 'Lato', sans-serif;
-    clear:both;
-    
-}
+
 aside{
     text-align: center;
     background-color: whitesmoke;
@@ -115,7 +101,6 @@ p{
     border-radius: 5px;
 }
 .portpic{
-    float:left;
     width: 200px;
     height: 150px;
     margin: 15px;
@@ -134,12 +119,6 @@ p{
     border-color: white;
     border-width: 1px;
     border-radius: 5px;  
-}
-.socialL{
-    float:right;
-}
-.socialR{
-    float:left;
 }
 .social:hover{
     animation: shake 0.5s;
@@ -186,31 +165,16 @@ p{
     background: rgb(195, 238, 252);
 }
 
-label{
-    margin-top: 0px;
-    float: left;
-    margin-right: 10px;
-}
-/* #pictext{
-    position:absolute;
-    bottom:0px;
-    padding: 15px;
-    margin: auto;
-} */
-
 #port{
     text-align: center;
-    /* position: relative; */
-    /* float: left; */
-    margin-right: 5px;
+    position: relative;
+    /* margin-right: 5px; */
     z-index: 2;
  
 }
-#hangman, #crystal, #spotYourShow, #turtly, #bunnyy{
-    height: 250px;
-    float: left;
-    position: relative;
+.project{
+    text-align: center;
 }
-.container{
-    margin-bottom:5px;
+.projectTitle{
+    font-size: 20px;
 }
