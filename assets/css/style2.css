@@ -101,9 +101,9 @@ p{
     border-radius: 5px;
 }
 .portpic{
-    width: 200px;
-    height: 150px;
-    margin: 15px;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
     position: relative;
     border-style: solid;
     border-color: white;
@@ -114,7 +114,7 @@ p{
 .social{
     height: 70px;
     width: 70px;
-    margin: 10px;
+    margin-bottom: 10px;
     border-style: solid;
     border-color: white;
     border-width: 1px;
@@ -130,37 +130,24 @@ p{
     bottom:0;
     left:0;
     width: 100%;
-    height:30px;
+    height:20px;
     color: gray;
     background-color: whitesmoke;
     font-family: 'Lato', sans-serif;
     font-size: 12px;
-    padding: 20px;
     clear:both;
- 
-}
-#foot{
-    text-align: center;
-    bottom:0;
-    left:0;
-    width: 100%;
-    height:30px;
-    color: gray;
-    background-color: rgb(184, 178, 178);
-    font-family: 'Lato', sans-serif;
-    font-size: 12px;
-    padding: 20px;
-    clear:both;
-    margin-top: 5px;
-}
-#contactform{
-    text-align: left;
-}
-#message{
-    width: 400px;
-    height: 150px;
 }
 
+#contactform{
+    text-align: center;
+}
+#fname, #lname, #message{
+    width:50%;
+    margin: 7px;
+}
+#message{
+    height: 75px;
+}
 #fname:focus, #lname:focus, #message:focus{
     background: rgb(195, 238, 252);
 }
@@ -168,7 +155,6 @@ p{
 #port{
     text-align: center;
     position: relative;
-    /* margin-right: 5px; */
     z-index: 2;
  
 }
@@ -178,3 +164,7 @@ p{
 .projectTitle{
     font-size: 20px;
 }
+@media all and (max-width: 992px){
+.project {
+    width: 100%;
+}}
